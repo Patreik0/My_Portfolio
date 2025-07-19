@@ -129,7 +129,7 @@ nav ul li a {
 }
 
 .progress-bar {
-  background-color: #e0e0e0;
+  background-color: #ffffff;
   border-radius: 10px;
   overflow: hidden;
   height: 12px;
@@ -138,7 +138,7 @@ nav ul li a {
 .progress-bar span {
   display: block;
   height: 100%;
-  background: linear-gradient(to right, #ff7e00, #ffbb33);
+  background: linear-gradient(to right, #ee0808, #33ff3d);
   border-radius: 10px;
   transition: width 1s ease-in-out;
 }

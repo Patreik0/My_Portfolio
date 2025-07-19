@@ -107,6 +107,43 @@ nav ul li a {
   transform: scale(1.01);
 }
 
+.AboutME {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.skills {
+  margin-top: 20px;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill p {
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 12px;
+}
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(to right, #ff7e00, #ffbb33);
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+
+
 @media (max-width: 768px) {
   .project-tile {
     width: 100%;

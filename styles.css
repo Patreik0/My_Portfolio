@@ -110,12 +110,21 @@ nav ul li a {
 
 
 .AboutME {
-  max-width: 1500px;
-  margin: 20px auto;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  color: #ffffff;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.about-text {
+  flex: 1;
+  color: #fff;
+  line-height: 1.6;
 }
 
 .AboutME h2 {
@@ -125,13 +134,12 @@ nav ul li a {
   text-align: left;
 }
 
-
 .skill-box {
-  width: 400px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
-  margin: 20px auto;
+  flex: 0 0 300px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
   padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
 }
 
 .skills {

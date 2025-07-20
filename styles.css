@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Space Mono", monospace;
   background: linear-gradient(to bottom, #ffffff, #3b79ff);
   color: #000000;
 }
@@ -114,32 +114,37 @@ nav ul li a {
   justify-content: space-between;
   align-items: flex-start;
   gap: 40px;
-  max-width: 1000px;
+  max-width: 50%;
   margin: 60px auto;
   padding: 40px;
   border-radius: 15px;
-  background: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(to bottom, #3b79ff, #0b66ee);
 }
 
 .about-text {
   flex: 1;
-  color: #fff;
+  color: #ebebeb;
   line-height: 1.6;
 }
 
 .AboutME h2 {
   font-size: 28px;
   margin-bottom: 15px;
-  color: #fff;
+  color: #ffffff;
   text-align: left;
 }
 
 .skill-box {
   flex: 0 0 300px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #3b79ff;
+  color: #ebebeb;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+
+.skill-box h3 {
+  color: #ffffff;
 }
 
 .skills {

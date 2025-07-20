@@ -118,6 +118,14 @@ nav ul li a {
   display: flex;
 }
 
+.AboutME h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #fff;
+  text-align: left;
+}
+
+
 .skill-box {
   width: 400px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);

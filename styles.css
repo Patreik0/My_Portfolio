@@ -45,20 +45,19 @@ nav ul li a {
 }
 
 .hero h2 {
-  font-size: 24px;
+  font-size: 1.5em;
   color: #666;
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 3em;
   font-weight: 800;
   margin: 10px 0;
 }
 
 .hero p {
-  font-size: 16px;
+  font-size: 1.2em;
   color: #555;
-  max-width: 600px;
   margin: 0 auto 20px;
 }
 
@@ -117,18 +116,19 @@ nav ul li a {
   max-width: 50%;
   margin: 60px auto;
   padding: 40px;
-  border-radius: 15px;
-  background: linear-gradient(to bottom, #3b79ff, #0b66ee);
+  border-radius: 10px;
+  /*background: linear-gradient(to bottom, #3b79ff, #0b66ee);*/
 }
 
 .about-text {
   flex: 1;
-  color: #ebebeb;
+  font-size: 1.1em;
+  color: #ffffff;
   line-height: 1.6;
 }
 
 .AboutME h2 {
-  font-size: 28px;
+  font-size: 2em;
   margin-bottom: 15px;
   color: #ffffff;
   text-align: left;
@@ -170,7 +170,7 @@ nav ul li a {
 .progress-bar span {
   display: block;
   height: 100%;
-  background: linear-gradient(to right, #f04a4a, #33ff3d);
+  background: linear-gradient(to right, #acffc5, #00ff0d);
   border-radius: 10px;
   width: 0;
   animation: fillBar 2s forwards;

@@ -179,6 +179,46 @@ nav ul li a {
   to { width: var(--progress, 80%); }
 } 
 
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 50%;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.contact-text {
+  flex: 1;
+  font-size: 1.1em;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.contact {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   .project-tile {

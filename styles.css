@@ -136,7 +136,7 @@ nav ul li a {
 
 .skill-box {
   flex: 0 0 300px;
-  color: #ebebeb;
+  color: #ffffff;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(114, 114, 114, 0.3);
@@ -190,15 +190,31 @@ nav ul li a {
   border-radius: 10px;
 }
 
+.contact {
+  border-radius: 10px;
+  padding: 20px 0px;
+  background-color: #4b7de962;
+  box-shadow: 0px 0px 20px rgba(131, 131, 131, 0.3);
+
+}
+
 .contact-text {
   flex: 1;
-  font-size: 1.1em;
+  font-size: 1em;
   color: #ffffff;
   line-height: 1.6;
 }
 
-.contact {
-  
+.contact-box h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 

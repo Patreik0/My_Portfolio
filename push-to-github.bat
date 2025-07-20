@@ -1,6 +1,6 @@
 @echo off
 echo ================================
-echo  🔁 Git: commit & push start
+echo Git: commit & push start
 echo ================================
 
 cd /d %~dp0

@@ -18,4 +18,5 @@ git push origin main
 
 echo ================================
 echo Wyslano na GitHuba!
+echo ================================
 pause

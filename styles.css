@@ -96,7 +96,6 @@ nav ul li a {
   transition: transform 0.3s ease;
 }
 
-/* ZOOM efekt */
 .project-tile:hover {
   transform: scale(1.03);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -109,7 +108,7 @@ nav ul li a {
 
 
 .AboutME {
-  display: flex;
+  display: grid;
   justify-content: space-between;
   align-items: flex-start;
   gap: 40px;
@@ -216,18 +215,6 @@ nav ul li a {
   text-decoration: none;
   color: #ffffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

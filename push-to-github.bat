@@ -19,6 +19,6 @@ REM Wysłanie zmian
 git push origin main
 
 echo ===============================
-echo Wysłano na GitHuba!
+echo Wyslano na GitHuba!
 echo ===============================
 pause
